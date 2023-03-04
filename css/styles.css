@@ -45,3 +45,38 @@ body {
         background-color:deeppink;
     }
 }
+
+.hola {
+    width: 100%;
+    height: 100vh;
+   
+ 
+
+}
+
+.kilO {
+  
+    display: flex;
+    justify-content: center;
+}
+
+.play {
+    width: 100%;
+    height: 40rem;
+    background-color: orange;
+}
+
+.puntaje {
+    background-color: darkblue;
+    height: 18rem;
+
+  
+
+}
+.redes {
+    background-color: darkcyan;
+    height: 18rem;
+  
+   
+
+}
