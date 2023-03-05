@@ -109,7 +109,7 @@ body {
         left: -41rem;
     }
 }
-@media(min-width:1025px) and (max-width:1440px){
+@media(min-width:1221px) and (max-width:1440px){
     body {
         background-color:purple;
        
@@ -125,6 +125,23 @@ body {
         top: 19.7rem;
         left: -41rem;
     }
+}
+    @media(min-width:1025px) and (max-width:1200px){
+        body {
+            background-color:purple;
+           
+        }
+         #rito {
+            width: 2rem;
+            height: 2rem;
+            animation-duration:15s;
+            animation-name: corriendo;
+            position: relative;
+            animation-delay: 8ms;
+            animation-iteration-count: infinite;
+            top: 19.7rem;
+            left: -41rem;
+        }
     @keyframes corriendo {
         from{
             top: 19.7rem;
