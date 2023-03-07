@@ -77,22 +77,101 @@ body {
         left: -41rem;
     }
 }
-@media(min-width:426px) and (max-width:768px){
+@media(min-width:426px) and (max-width:590px){
     body {
         background-color:orange;
-    
+       
     }
-    .rito {
+     #rito {
+        width: 1.2rem;
+        height: 1.2rem;
+        animation-duration:10s;
+        animation-name: corriendo;
         position: relative;
-        animation-name: pacman;
+        animation-delay: 8ms;
         animation-iteration-count: infinite;
-        animation-duration: 30seg;
-        width: 2rem;
-        height: 2rem;
         top: 19.7rem;
-        left: -41rem;
+        left: -22rem;
     }
+ @keyframes corriendo { 
+    from{
+        top: 19.7rem;
+        left: -22rem;
+        opacity: 0;
+    }
+    5% {
+        top: 19.7rem; left: -18.7rem; opacity: 1;
+    }
+    
+    10% {
+        top: 19.7rem; left: -18.7rem;
+    }
+    12% {
+        top: 19.7rem; left: -18.7rem;
+    }
+    12% {
+        top: 19.7rem; left: -18.7rem; rotate: 90deg;
+    }
+    15% {
+        top: 23.5rem; left: -18.7rem; 
+    }
+     20% {
+        top: 23.5rem; left: -18.7rem; rotate: 0deg;
+    }
+    25% {
+        top: 23.5rem; left: -18.7rem; rotate: 0deg;
+    }
+    30%{
+        top: 23.5rem; left: -14.7rem; rotate: 90deg;
+    }
+    35%{
+        top: 25.5rem; left: -14.7rem; 
+    }
+    40%{
+        top: 25.5rem; left: -14.7rem; 
+    }
+    42%{
+        top: 25.5rem; left: -14.7rem; rotate: 0deg;
+    }
+    48%{
+        top: 25.5rem; left: 6.5rem; rotate: 0deg;
+    }
+    52%{
+        top: 25.5rem; left: 6.5rem; rotate: -90deg;
+    }
+    58%{
+        top: 13.9rem; left: 6.5rem; rotate: -90deg;
+    }
+    62%{
+        top: 13.9rem; left: 6.5rem; rotate: -180deg;
+    }
+    65%{
+        top: 13.9rem; left: -17rem; rotate: -180deg;
+    }
+    69%{
+        top: 13.9rem; left: -17rem; rotate: -270deg;
+
+    } 
+     72%{
+        top: 19.7rem; left: -17rem; rotate: -270deg;
+
+    }
+
+    80%{
+        top: 19.7rem; left: -17rem; rotate: -180deg;
+
+    }
+    90%{
+        top: 19.7rem; left: -19rem; rotate: -180deg; opacity: 1;
+
+    }
+    to{  top: 19.7rem; left: -23rem; rotate: -180deg; opacity: 0;
+        
+    }
+    
 }
+}
+@media(min-width:426px) and (max-width:768px){}
 @media(min-width:769px) and (max-width:1024px){
     body {
         background-color: pink;
@@ -461,6 +540,7 @@ body {
     justify-content: center;
    color: yellow;
    text-shadow: 4px 4px 4px black;
+   text-align: center;
   
  
    
