@@ -177,15 +177,60 @@ body {
         background-color: pink;
       
     }
-    .rito {
-        position: relative;
-        animation-name: pacman;
-        animation-iteration-count: infinite;
-        animation-duration: 30seg;
+    #rito {
         width: 2rem;
         height: 2rem;
+        animation-duration:5s;
+        animation-name: corriendo;
+        position: relative;
+        animation-delay: 8ms;
+        animation-iteration-count: infinite;
         top: 19.7rem;
-        left: -41rem;
+        left: -34.5rem;
+    }
+  @keyframes corriendo { 
+        from{
+            top: 19.7rem;
+            left: -34.5rem;
+            opacity: 0;
+        }
+        2% {
+            top: 19.7rem; left: -30rem; opacity: 1;
+        }
+        
+        5% {
+            top: 19.7rem; left: -22rem;
+        }
+        6% {
+            top: 19.7rem; left: -22rem;rotate: -90deg
+        }
+        7% {
+            top: 13rem; left: -22rem; 
+        }
+        20% {
+            top: 13rem; left: -22rem; rotate:-180deg;
+        }
+        30% {
+            top: 13rem; left: -25rem; rotate:-180deg;
+        }
+        40% {
+            top: 13rem; left: -25rem; rotate:-270deg;
+        }
+        50% {
+            top: 19.5rem; left: -25rem; rotate:-270deg;
+        }
+        60% {
+            top: 19.5rem; left: -25rem; rotate:-180deg;
+        }
+        76% {
+            top: 19.5rem; left: -25rem; rotate: -180deg; opacity: 1;
+        }
+        85% {
+            top: 19.5rem; left: -27rem; rotate: -180deg; opacity: 1;
+        }
+        to {
+            top: 19.5rem; left: -41rem; rotate: -180deg; opacity: 0;
+        }
     }
 }
 @media(min-width:1221px) and (max-width:1440px){
