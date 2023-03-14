@@ -28,7 +28,7 @@ body {
  
  @media(max-width:320px){
     body{ 
-        background-color: red;
+      
 
        
     }
@@ -45,7 +45,7 @@ body {
 }
 @media(min-width:321px) and (max-width:375px){
     body {
-        background-color:blue;
+      
       
 
     }
@@ -63,7 +63,7 @@ body {
 }
 @media(min-width:376px) and (max-width:425px){
     body {
-        background-color:green;
+       
        
     }
     .rito {
@@ -79,7 +79,7 @@ body {
 }
 @media(min-width:426px) and (max-width:590px){
     body {
-        background-color:orange;
+       
        
     }
      #rito {
@@ -174,13 +174,13 @@ body {
 @media(min-width:426px) and (max-width:768px){}
 @media(min-width:769px) and (max-width:1024px){
     body {
-        background-color: pink;
+        
       
     }
     #rito {
         width: 2rem;
         height: 2rem;
-        animation-duration:5s;
+        animation-duration:7s;
         animation-name: corriendo;
         position: relative;
         animation-delay: 8ms;
@@ -235,13 +235,13 @@ body {
 }
 @media(min-width:1221px) and (max-width:1440px){
     body {
-        background-color:purple;
+       
        
     }
      #rito {
         width: 2rem;
         height: 2rem;
-        animation-duration:15s;
+        animation-duration:30s;
         animation-name: corriendo;
         position: relative;
         animation-delay: 8ms;
@@ -249,16 +249,118 @@ body {
         top: 19.7rem;
         left: -41rem;
     }
+    @keyframes corriendo { 
+        from{
+            top: 19.7rem;
+            left: -41rem;
+            opacity: 0;
+        }
+        5% {
+            top: 19.7rem; left: -25rem; opacity: 1;
+        }
+        
+         10% {
+            top: 19.7rem; left: -25rem;
+        }
+        12% {
+            top: 19.7rem; left: -25rem ; rotate: -90deg; opacity: 1;
+        }
+        15% {
+            top: 11.5rem; left: -25rem ; rotate: -90deg; opacity: 1;
+        }
+        17% {
+            top: 11.5rem; left: -25rem ; rotate: -180deg; opacity: 1;
+        }
+        19% {
+            top: 11.5rem; left: -29rem ; rotate: -180deg; opacity: 1;
+        }
+        21% {
+            top: 11.5rem; left: -29rem ; rotate: -90deg; opacity: 1;
+        }
+        24% {
+            top: 7.5rem; left: -29rem ; rotate: -90deg; opacity: 1;
+        }
+        24% {
+            top: 7.5rem; left: -29rem ; rotate: 0deg; opacity: 1;
+        }
+        27% {
+            top: 7.5rem; left: 20rem ; rotate: 0deg; opacity: 1;
+        }
+        29% {
+            top: 7.5rem; left: 20rem ; rotate: 90deg; opacity: 1;
+        }
+        31% {
+            top: 28rem; left: 20rem ; rotate: 90deg; opacity: 1;
+        }
+        33% {
+            top: 28rem; left: 20rem ; rotate: 180deg; opacity: 1;
+        }
+        35% {
+            top: 28rem; left: 11.5rem ; rotate: 180deg; opacity: 1;
+        }
+        37% {
+            top: 28rem; left: 11.5rem ; rotate: 90deg; opacity: 1;
+        }
+        40% {
+            top: 32rem; left: 11.5rem ; rotate: 90deg; 
+            opacity: 1;
+        }
+        43% {
+            top: 32rem; left: 11.5rem ; rotate: 180deg; opacity: 1;
+        }
+        46% {
+            top: 32rem; left: 7.5rem ; rotate: 180deg; opacity: 1;
+        }
+        49% {
+            top: 32rem; left: 7.5rem ; rotate: 270deg; opacity: 1;
+        }
+        49% {
+            top: 28rem; left: 7.5rem ; rotate: 270deg; opacity: 1;
+        }
+        51% {
+            top: 28rem; left: 7.5rem ; rotate: 180deg; opacity: 1;
+        }
+        54% {
+            top: 28rem; left: -1rem ; rotate: 270deg; opacity: 1;
+        }
+        57% {
+            top: 15.5rem; left: -1rem ; rotate: 270deg; opacity: 1;
+        }
+        63% {
+            top: 15.5rem; left: -1rem ; rotate: 180deg; opacity: 1;
+        }
+        66% {
+            top: 15.5rem; left: -6rem ; rotate: 180deg; opacity: 1;
+        }
+        66% {
+            top: 15.5rem; left: -7rem ; rotate: 90deg; opacity: 1;
+        }
+        70% {
+            top: 19rem; left: -7rem ; rotate: 90deg; opacity: 1;
+        }
+        80% {
+            top: 19rem; left: -7rem ; rotate: 90deg; opacity: 1;
+        }
+        90% {
+            top: 19rem; left: -7rem ; rotate: 90deg; opacity: 0.5;
+        }
+        to {
+            top: 19rem; left: -7rem ; rotate: 90deg; opacity: 0;
+        }
+        
+        
+        
+    }
 }
     @media(min-width:1025px) and (max-width:1200px){
         body {
-            background-color:purple;
+      
            
         }
          #rito {
             width: 2rem;
             height: 2rem;
-            animation-duration:15s;
+            animation-duration:30s;
             animation-name: corriendo;
             position: relative;
             animation-delay: 8ms;
@@ -406,7 +508,10 @@ body {
  
 @media(min-width:1441px){
     body {
-        background-color:deeppink;
+       background-image: url(../assets/pacmanFondoUno.png);
+       background-size: 100%;
+       background-repeat: no-repeat;
+       
        
     }
     #rito {
@@ -576,7 +681,7 @@ body {
 .play {
     width: 100%;
     height: 40rem;
-    background-color: orange;
+ 
     background-image:url(../assets/pacman.png);
     background-repeat: no-repeat;
     background-size:contain;
@@ -592,16 +697,31 @@ body {
 }
 
 .puntaje {
-    background-color: darkblue;
-    height: 18rem;
+   
+    height: 15rem;
 
   
 
 }
 .redes {
-    background-color: darkcyan;
-    height: 18rem;
+  
+    height: 15rem;
+    color: yellow;
+    text-shadow: 0.2rem 0.2rem 0.4rem black;
   
    
 
+}
+audio {
+   color: black;
+
+   
+}
+.title {
+    width: 100%;
+    margin-top: 2rem;
+    
+}
+.flot2 {
+    margin-left: 2rem;
 }
