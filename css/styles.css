@@ -64,23 +64,205 @@ body {
 @media(min-width:376px) and (max-width:425px){
     body {
        
-       
+        background-image: url(../assets/astolfo.jpg);
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-color: rgb(66, 5, 5);
     }
-    .rito {
+     #rito {
+        width: 1rem;
+        height: 1rem;
+        animation-duration:5s;
+        animation-name: corriendo;
         position: relative;
-        animation-name: pacman;
+        animation-delay: 8ms;
         animation-iteration-count: infinite;
-        animation-duration: 30seg;
-        width: 2rem;
-        height: 2rem;
-        top: 19.7rem;
-        left: -41rem;
+        top: 28rem;
+        left:0.7rem;
+        rotate: -90deg;
     }
+  @keyframes corriendo { 
+    from{
+        top: 28rem;
+        left: 0.7rem;
+        opacity: 0;
+        rotate: -90deg;
+    } 
+    2%{
+        top: 25.7rem;
+        left: 0.7rem;
+        opacity: 1;
+        rotate: -90deg;
+    } 
+    5%{
+        top: 25.7rem;
+        left: 0.7rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+    8%{
+        top: 25.7rem;
+        left: 2.2rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+    10%{
+        top: 25.7rem;
+        left: 2.2rem;
+        opacity: 1;
+        rotate: -90deg;
+    } 
+    12%{
+        top: 24.5rem;
+        left: 2.2rem;
+        opacity: 1;
+        rotate: -90deg;
+    } 
+    15%{
+        top: 24.5rem;
+        left: 2.2rem;
+        opacity: 1;
+        rotate: -180deg;
+    } 
+    17%{
+        top: 24.5rem;
+        left:-5.5rem;
+        opacity: 1;
+        rotate: -180deg;
+    } 
+    19%{
+        top: 24.5rem;
+        left:-5.5rem;
+        opacity: 1;
+        rotate: -90deg;
+    } 
+    21%{
+        top: 23rem;
+        left:-5.5rem;
+        opacity: 1;
+        rotate: -90deg;
+    } 
+    25%{
+        top: 23rem;
+        left:-5.5rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+    27%{
+        top: 23rem;
+        left: -3.5rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+    29%{
+        top: 23rem;
+        left: -3.5rem;
+        opacity: 1;
+        rotate: -90deg;
+    } 
+    32%{
+        top: 20rem;
+        left: -3.5rem;
+        opacity: 1;
+        rotate: -90deg;
+    } 
+    40%{
+        top: 20rem;
+        left: -3.5rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+    43%{
+        top: 20rem;
+        left: -1rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+    45%{
+        top: 20rem;
+        left: -1rem;
+        opacity: 1;
+        rotate: 90deg;
+    } 
+    47%{
+        top: 21.3rem;
+        left: -1rem;
+        opacity: 1;
+        rotate: 90deg;
+    } 
+    50%{
+        top: 21.3rem;
+        left: -1rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+    55%{
+        top: 21.3rem;
+        left:2rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+
+    65%{
+        top: 21.3rem;
+        left:2rem;
+        opacity: 1;
+        rotate: -90deg;
+    } 
+    70%{
+        top: 19.5rem;
+        left:2rem;
+        opacity: 1;
+        rotate: -90deg;
+    } 
+    75%{
+        top: 19.7rem;
+        left:2rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+    80%{
+        top: 19.7rem;
+        left:6rem;
+        opacity: 1;
+        rotate: 0deg;
+    } 
+    90%{
+        top: 19.7rem;
+        left:7.5rem;
+        opacity: 0;
+        rotate: 0deg;
+    } 
+    to{
+        top: 19.7rem;
+        left:7.5rem;
+        opacity: 0;
+        rotate: 0deg;
+    } 
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
 }
 @media(min-width:426px) and (max-width:590px){
     body {
        
-       
+        background-image: url(../assets/rimuru.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
      #rito {
         width: 1.2rem;
@@ -171,12 +353,179 @@ body {
     
 }
 }
-@media(min-width:426px) and (max-width:768px){}
-@media(min-width:769px) and (max-width:1024px){
+@media(min-width:426px) and (max-width:768px){
     body {
+        background-image: url(../assets/venti.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
         
       
+    
+    #rito {
+        width: 1.5rem;
+        height: 1.5rem;
+        animation-duration:15s;
+        animation-name: corriendo;
+        position: relative;
+        animation-delay: 8ms;
+        animation-iteration-count: infinite;
+        top: 19.7rem;
+        left: -6rem;
     }
+   @keyframes corriendo { 
+        from{
+            top: 19.7rem;
+            left: -6rem;
+            opacity: 0;
+        }
+        2%{
+            top: 19.7rem;
+            left: -6rem;
+            opacity: 1;
+        
+        }
+        5%{
+            top: 19.7rem;
+            left: -6rem;
+            opacity: 1;
+            rotate: -90deg;
+        
+        }
+        7%{
+            top: 17rem;
+            left: -6rem;
+            opacity: 1;
+            rotate: -90deg;
+        
+        }
+        9%{
+            top: 17rem;
+            left: -6rem;
+            opacity: 1;
+            rotate: 0deg;
+        
+        }
+        12%{
+            top: 17rem;
+            left: -2.5rem;
+            opacity: 1;
+            rotate: 0deg;
+        
+        }
+        15%{
+            top: 17rem;
+            left: -2.5rem;
+            opacity: 1;
+            rotate: 90deg;
+        
+        }
+        18%{
+            top: 20rem;
+            left: -2.5rem;
+            opacity: 1;
+            rotate: 90deg;
+        
+        }
+        21%{
+            top: 20rem;
+            left: -2.5rem;
+            opacity: 1;
+            rotate: 0deg;
+        
+        }
+        24%{
+            top: 20rem;
+            left: 0rem;
+            opacity: 1;
+            rotate: 0deg;
+        
+        }
+        27%{
+            top: 20rem;
+            left: 0rem;
+            opacity: 1;
+            rotate: -90deg;
+        
+        }
+        29%{
+            top: 17rem;
+            left: 0rem;
+            opacity: 1;
+            rotate: -90deg;
+        
+        }
+        32%{
+            top: 17rem;
+            left: 0rem;
+            opacity: 1;
+            rotate: 00deg;
+        
+        }
+        35%{
+            top: 17rem;
+            left:5rem;
+            opacity: 1;
+            rotate: 00deg;
+        
+        }
+        37%{
+            top: 17rem;
+            left:5rem;
+            opacity: 1;
+            rotate: 90deg;
+        
+        }
+        40%{
+            top: 20rem;
+            left:5rem;
+            opacity: 1;
+            rotate: 90deg;
+        
+        }
+        45%{
+            top: 20rem;
+            left:5rem;
+            opacity: 1;
+            rotate: 0deg;
+        
+        }
+        47%{
+            top: 20rem;
+            left:8rem;
+            opacity: 1;
+            rotate: 0deg;
+        
+        }
+       70%{
+            top: 20rem;
+            left:10rem;
+            opacity: 1;
+            rotate: 0deg;
+        
+        }
+        to{
+            top: 20rem;
+            left:18rem;
+            opacity: 0;
+            rotate: 0deg;
+        
+        }
+        
+        
+        
+    
+    } 
+}
+@media(min-width:769px) and (max-width:1024px){
+    body {
+        background-image: url(../assets/738323.png);
+        background-size: 130%;
+        background-repeat: no-repeat;
+    }
+        
+      
+    
     #rito {
         width: 2rem;
         height: 2rem;
@@ -233,8 +582,12 @@ body {
         }
     }
 }
-@media(min-width:1221px) and (max-width:1440px){
+@media(min-width:1201px) and (max-width:1440px){
     body {
+       
+        background-image: url(../assets/himiko2.jpg);
+       background-size: 100%;
+       background-repeat: no-repeat;
        
        
     }
@@ -683,6 +1036,7 @@ body {
     height: 40rem;
  
     background-image:url(../assets/pacman.png);
+    opacity: 0.7;
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center ;
@@ -695,10 +1049,17 @@ body {
  
    
 }
+#rito {
+    opacity: 2;
+}
 
 .puntaje {
    
     height: 15rem;
+    
+    height: 15rem;
+    color: yellow;
+    text-shadow: 0.2rem 0.2rem 0.4rem black;
 
   
 
